@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login for TCS Site</title>
+        <link href="mainstyles.css" type="text/css" rel="stylesheet"/>
+    </head>
+    
+    <style>
+        body{background-color:#FFCCE6; background-image: url('IMG_0385.JPG');background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: 900px 600px}
+
+        p{background-color:#FFFFFF;}
+
+    </style>
+    
+    <body>
+        <h1>
+        <form method="POST" action="login.php">
+            <h3> Login </h3><br>
+            
+            <div class='username'>
+                <label for='username'>Enter your Username</label>
+                <input type='text' name='username' id='username'
+                            size='20' maxlength='8' />
+            </div>
+            
+            <div class='password'>
+                <label for='password'>Enter your Password</label>
+                <input type='password' name='password' id='password'
+                            size='20' maxlength='12' />
+            </div>
+            
+            <div id='submit'>
+                 <input type='submit' value='Login'>
+            </div>  
+            
+            <a href="registration.html">Register Here</a>
+            
+            <br>
+            
+            <a href="deleteuser.html">Delete Account</a>
+            
+            <br>
+            
+            <a href="changeinfo.html">Change Password</a>
+            
+        </form>
+        </h1>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration For New User</title>
+        <link href="mainstyles.css" type="text/css" rel="stylesheet"/>
+    </head>
+    
+    <style>
+        body{background-color:#FFCCE6; background-image: url('IMG_0385.JPG');background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: 900px 600px}
+
+        p{background-color:#FFFFFF;}
+
+    </style>
+    
+    <body>
+        <h1>
+        <form method="POST" action="register.php">
+            <h3> Login </h3><br>
+            
+            <p>Please fill out the form with your information for your new account.</p>
+            
+            <div class='fname'>
+                <label for='fname'>First Name: </label>
+                <input type='text' name='fname' id='fname'
+                            size='20' maxlength='15' />
+            </div>
+            
+            <div class='lname'>
+                <label for='lname'>Last Name: </label>
+                <input type='text' name='lname' id='lname'
+                            size='20' maxlength='20' />
+            </div>
+            
+            <div class='username'>
+                <label for='username'>Username: </label>
+                <input type='text' name='username' id='username'
+                            size='20' maxlength='15' />
+            </div>
+            
+             <div class='email'>
+                <label for='email'>Email: </label>
+                <input type='email' name='email' id='email'
+                            size='20' maxlength='40' />
+            </div>
+            
+            <div class='password'>
+                <label for='password'>Password: </label>
+                <input type='password' name='password' id='password'
+                            size='20' maxlength='15' />
+            </div>
+            
+            <div class='password2'>
+                <label for='password2'>Re-Enter Password: </label>
+                <input type='password' name='password2' id='password2'
+                            size='20' maxlength='15' />
+            </div>
+            
+            <div id='submit'>
+                 <input type='submit' value='Login'>
+            </div>            
+        </form>
+        </h1>
+    </body>
+</html>
