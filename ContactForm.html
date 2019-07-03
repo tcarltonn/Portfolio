@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paintball News</title>
+    <link href="UnanimousStyle.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="UnanimousStyle.css" />
+    <meta name="viewport" content="initial-scale=1">
+    <script src="javaFinal.js"></script>
+</head>
+
+<body>
+
+    <h1><i>Paint To The Ball Inc.</i></h1>
+
+    <div class="main_nav">
+
+                <a href="Home.html">Home</a>
+
+                <div class="strategy-dropdown">
+                    <button class="strategy-drop-btn">Strategies
+                        <i class="strategy-irrelevant"></i>
+                    </button>
+                    <div class="strategy-dropdown-content">
+                        <a href="Strategies.html#offense">Offense</a>
+                        <a href="Strategies.html#defense">Defense</a>
+                        <a href="Strategies.html#snake">Snake</a>
+                        <a href="Strategies.html#gameplay">Gameplay</a>
+                    </div>
+                </div> 
+
+                <div class="events-dropdown">
+                    <button class="events-drop-btn">Events
+                        <i class="events-irrelevant"></i>
+                    </button>
+                    <div class="events-dropdown-content">
+                        <a href="Events.html#tournaments">Tournaments</a>
+                        <a href="Events.html#meetngreet">Meet and Greets</a>
+                        <a href="Events.html#signups">Sign-Ups</a>
+                        <a href="Events.html#merch">Merchandise</a>
+                    </div>
+                </div>
+
+                <div class="news-dropdown">
+                    <button class="news-drop-btn">News
+                        <i class="news-irrelevant"></i>
+                    </button>
+                    <div class="news-dropdown-content">
+                        <a href="News.html#aboutus">About Us</a>
+                        <a href="News.html#blog">Blog</a>
+                    </div>
+                </div>
+
+                <a href="ContactForm.html">Contact Us</a>
+
+    </div>
+    
+    <br>
+    
+    <fieldset id="formfield">
+        
+        <br>
+
+        <form autocomplete="off" id="contactform" onsubmit="return verifyAll();" method="">
+
+            <div class='name'>
+                <label for='name'>Name: </label>
+                <input type='text' name='name' id='name' size='30' maxlength='30' onblur='checkName(this.id)' required/> 
+            </div>
+            <br>
+
+            <div class='number'>
+                <label for='number'>Telephone: </label>
+                <input type='text' name='number' id='number' size='15' maxlength='15' onblur='checkNumber(this.id)' required/> 
+            </div>
+            <br>
+
+            <div class='subject'>
+                <label for='subject'>Subject: </label>
+                <input type='text' name='subject' id='subject' size='28' maxlength='15' onblur='checkSubject(this.id)' required/> 
+            </div>
+            <br>
+
+            <div class='comment'>
+                <label for='comment'>Comments: </label><br>
+                <textarea name='comment' id='comment' cols='65' rows='10' maxlength='255' onblur='checkComment(this.id)' required></textarea>
+            </div>
+            <br>
+            
+            <div id='submit' > 
+                <input type='submit' value='Submit' onclick="return confirmation()"> 
+            </div>  
+
+            <br>
+
+        </form>
+        
+    </fieldset>
+    
+    <br>
+
+    <footer> 
+            Contact Info:<br> <br>
+            Tyler Carlton Smith | Phone: 661-400-3618 | Email: <a href="mailto:tsmith91@asu.edu">tsmith91@asu.edu</a>
+    </footer>
+
+</body>
+
+</html> 

@@ -1,0 +1,54 @@
+body {background-color:#CAEBF2;}
+
+footer {padding: 1em; color: #EFEFEF; background-color: #FF383F; clear: left; text-align: center;}
+
+h1{font-family:impact; font-size: 40px; text-align:left; text-shadow: 1px 1px 0 #FFFFFF;}
+
+h2 {font-family: "Comic Sans MS", cursive, sans-serif; text-align: center;}
+
+#timestamp1, #timestamp2, #timestamp3, #timestamp4 {text-align: right; font-size: 12px;}
+
+#blogtitle1, #blogtitle2, #blogtitle3, #blogtitle4, #aboutpic1, #aboutpic2, #blogpic1, #blogpic2, #blogpic3, #blogpic4, #layout, #nppl, #merchandise, #confirmation, h3 {text-align: center;}
+
+fieldset {background-color: #EFEFEF;}
+
+form {background-color:#EFEFEF; font-family:"Comic Sans MS", cursive, sans-serif;}
+
+#formfield {margin: 0px auto; width: 400px;}
+
+.name input, .subject input, .email input, .comment textarea {width: 300px; box-sizing: border-box;}
+
+table {margin: 0px auto;}
+
+#offensive-positions, #defensive-positions, #snake-position {text-align: left;}
+
+#offensive-strategies, #defensive-strategies, #snake-strategies, #gameplay-strategies {text-align: center;}
+
+#homeinfo {background-color: #A9A9A9; color: #FFFFFF; border: 3px solid #FF383F; height: 100px; width: 500px; margin: auto; text-align: center;}
+
+#homepics, #meetngreetpics {white-space: nowrap; text-align: center;}
+
+iframe {text-align: center;}
+
+.main_nav {overflow: hidden; background-color: #FF383F; font-family: "Comic Sans MS", cursive, sans-serif;}
+
+.main_nav a {float: left; font-size: 16px; color: #EFEFEF; text-align: center; padding: 14px 16px; text-decoration: none;}
+
+.strategy-dropdown, .events-dropdown, .news-dropdown {float: left; overflow: hidden;}
+
+.strategy-dropdown .strategy-drop-btn, .events-dropdown .events-drop-btn, .news-dropdown .news-drop-btn {font-size: 16px; border: none; outline: none; color: #EFEFEF; padding: 14px 16px; background-color: inherit; font-family: inherit; margin: 0;}
+
+.main_nav a:hover, .strategy-dropdown:hover .strategy-drop-btn, .events-dropdown:hover .events-drop-btn, .news-dropdown:hover .news-drop-btn {color: white; background-color: #A9A9A9;}
+
+.strategy-dropdown-content, .events-dropdown-content, .news-dropdown-content {display: none; position: absolute; background-color: white; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+
+.strategy-dropdown-content a, .events-dropdown-content a, .news-dropdown-content a
+{float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: center;}
+
+.strategy-dropdown-content a:hover, .events-dropdown-content a:hover, .news-dropdown-content a:hover {background-color: grey;}
+
+.strategy-dropdown:hover .strategy-dropdown-content, .events-dropdown:hover .events-dropdown-content, .news-dropdown:hover .news-dropdown-content {display: block;}
+
+a {color: #EFEFEF;}
+
+#merchandise a {color: black;}
